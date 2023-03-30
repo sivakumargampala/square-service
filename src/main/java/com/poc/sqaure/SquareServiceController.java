@@ -13,6 +13,7 @@ public class SquareServiceController {
 		
 		System.out.println("Received number is " + inputNum);
 		double result = Math.pow(inputNum, 2);
+		System.out.println("Square of given number " + inputNum + " is " + result);
 		return result;
 		
 	}
